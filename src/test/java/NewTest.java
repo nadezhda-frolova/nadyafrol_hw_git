@@ -10,5 +10,6 @@ public class NewTest {
         open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://selenide.org"));
+        System.out.println("Вася внес изменения в код");
     }
 }
